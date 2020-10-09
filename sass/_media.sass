@@ -23,7 +23,7 @@
     &__input
       width: 340px
 
-@media (max-width: 768px)
+// @media (max-width: 768px)
 
 @media (max-width: 750px)
   .container
@@ -48,8 +48,10 @@
         width: 16px
         height: 1px
         background-color: $text-color
+  .logo
+    width: 99px
   .stars
-    flex-basis: content
+    flex-basis: auto
   .hotel
     &-name
       flex-basis: 100%
@@ -66,6 +68,14 @@
       &__offer
         order: -1
         margin-left: 0
+
 @media (max-width: 576px)
+  .container
+    max-width: 550px
+    width: 95%
   .logo
     width: 99px
+  .hotel-description
+    font-size: 12px
+    line-height: 15px
+    max-width: 280px
